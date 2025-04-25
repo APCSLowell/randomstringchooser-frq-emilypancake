@@ -6,11 +6,8 @@ public class RandomLetterChooser extends RandomStringChooser
 		/* to be implemented in part (b) */
 
 		super(getSingleLetters(str)); // i know, super, you're here but i have no clue where to put you
-		b = new ArrayList <String>();
-		for(int i = 0; i < str.length(); i++){
-			b.add(a.get(i));
-		}
-		
+		// wait i could just chuck this out the window
+
 	}
 	
 	
