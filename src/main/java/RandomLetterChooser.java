@@ -7,7 +7,7 @@ public class RandomLetterChooser extends RandomStringChooser
 
 		super(getSingleLetters(str)); // i know, super, you're here but i have no clue where to put you
 		b = new ArrayList <String>();
-		for(int i = 0; i < str.length; i++){
+		for(int i = 0; i < str.length(); i++){
 			b.add(a.get(i));
 		}
 		
